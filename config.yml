@@ -1,0 +1,52 @@
+---
+baseURL: https://janetreider.com/
+languageCode: en-us
+title: Janet Reider Photography
+theme: "papermod"
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+minify:
+  disableXML: true
+  minifyOutput: true
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Janet Reider Photography
+  description: "Janet Reider Photography"
+  keywords: [Matt Reider]
+  # author: ["Me", "You"] # multiple authors
+  DateFormat: "January 2, 2006"
+  defaultTheme: dark # dark, light
+  disableThemeToggle: true
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: false
+  disableSpecial1stPost: true
+  disableScrollToTop: true
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+menu:
+  main:
+    - identifier: gallery
+      name: gallery
+      url: /
+      weight: 1
+    - identifier: buy
+      name: buy
+      url: /buy/
+      weight: 2
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 3
+  
