@@ -1,7 +1,7 @@
 ---
-title: "Foo"
+title: "Venice"
 url: venice
-description: "A description of the page"
+description: "This is venice!"
 ---
 
 
